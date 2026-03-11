@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ====== CHỈNH SỬA CÁC GIÁ TRỊ BÊN DƯỚI ====== -->
+
+  <!-- Tiêu đề hiển thị trên Facebook (giữ ngắn hoặc để trống) -->
+  <meta property="og:title" content="" />
+
+  <!-- Mô tả ngắn (giữ ngắn hoặc để trống để preview trông giống ảnh hơn) -->
+  <meta property="og:description" content="" />
+
+  <!-- ẢNH PREVIEW - thay bằng link ảnh của bạn (khuyến nghị 1200x630px) -->
+  <meta property="og:image" content="https://i.ibb.co/RpLv23SH/4.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- URL trang đích khi click vào -->
+  <meta property="og:url" content="https://your-domain.com/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="" />
+
+  <!-- Twitter Card (bonus) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://i.ibb.co/RpLv23SH/4.jpg" />
+
+  <!-- ====== KẾT THÚC PHẦN CHỈNH SỬA ====== -->
+
+  <title>Facebook OG Image Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f0f2f5;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 90%;
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #1a1a1a;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #65676b;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .redirect-note {
+      margin-top: 20px;
+      padding: 16px;
+      background: #e7f3ff;
+      border-radius: 8px;
+      color: #1877f2;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Chào mừng!</h1>
+    <p>Đây là trang đích khi người dùng click vào link được chia sẻ trên Facebook.</p>
+    <div class="redirect-note">
+      Bạn có thể thay nội dung này bằng bất cứ gì bạn muốn,
+      hoặc redirect sang trang khác.
+    </div>
+  </div>
+
+  <!-- Uncomment dòng dưới nếu muốn tự động redirect sang trang khác -->
+  <!-- <script>window.location.href = "https://your-target-url.com";</script> -->
+</body>
+</html>
